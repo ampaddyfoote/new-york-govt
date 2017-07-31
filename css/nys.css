@@ -1,0 +1,214 @@
+html, body
+{
+    height:100%;
+    margin:0; /* margin order is TOP RIGHT BOTTOM LEFT */
+    background-color:rgb(242, 244, 247);
+}
+
+nav
+{
+ display:flex;
+ justify-content:space-around;
+ height:4%
+}
+
+header
+{
+    display:flex;
+    height:25%;
+    margin:2px 0; 
+    border-top: double #ff0a0a 10px;
+}
+
+#banner1
+{
+
+ flex:1;
+ background-image: url("../img/nys.png");
+ background-size: 100% 100%;
+}
+
+#banner2
+{
+    display: flex;
+    flex:1;
+}
+
+#banner3
+{
+    background-image: url("../img/usa.png");
+    background-size: 100% 100%;
+    flex:1;
+}
+
+
+section
+{
+    border-top: double #ff0a0a 10px;
+    height:63%;
+    margin:0;
+}
+
+#sec1
+{
+    display:flex;
+    justify-content:space-around;
+    height:50%;
+    margin:20px 0 0 0;
+}
+
+#a, #b
+{
+    display:flex;
+    height:70%;
+    width:35%;
+    border: double #1417e2 10px;
+    align-items: center;
+    justify-content:center;
+    margin:0;
+}
+
+#sec2
+{
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    height:50%;
+    margin:0;
+}
+
+#c, #d, #e, #f
+{
+    display: flex;
+    width:20%;
+    height:65%;
+    border: double #1417e2 10px;
+    align-items: center;
+    justify-content:center;
+    margin:0;
+}
+
+#gov, #lg, #attorney, #comptroller, #senate, #assembly
+{
+
+    border-top: double #ff0a0a 10px;
+    margin:0;
+}
+
+#assembly
+{
+    border-bottom: double #ff0a0a 10px;
+}
+
+#btt
+{
+    align-self:flex-end;
+    display: inline-block;
+    width:100%;
+    text-align: left;
+}
+
+
+#a:hover
+{
+    background-image: url("../img/nyapple.png"); 
+    opacity:0.5;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#b:hover
+{
+    background-image: url("../img/nyapple.png");
+    opacity:0.5;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#c:hover
+{
+    background-image: url("../img/nyc.jpg");
+    opacity:0.5;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#d:hover
+{
+    background-image: url("../img/nyc.jpg");
+    opacity:0.5;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#e:hover
+{
+    background-image: url("../img/nyc.jpg");
+    opacity:0.5;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#f:hover
+{
+    background-image: url("../img/nyc.jpg");
+    opacity:0.5;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.a1 /* This a1 class refers to the links in the nav bar */
+{
+    font-size: 2em;
+    align-items: center;
+    margin:0;
+    color:#1417e2;
+    
+}
+
+a /* This a element refers to the links that leads to the content within the website */
+{
+    color:black;
+    font-family:'Libre Baskerville', serif;
+    margin:0;
+}
+
+h1
+{
+    font-family: 'Libre Baskerville', serif;
+    align-items: center;
+    
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+h2
+{
+    font-family: 'Libre Baskerville', serif;
+    margin: 15px 0 0 0;
+}
+
+h3
+{  
+    display:flex;
+    font-size: 3em;
+    text-align: center;
+    align-items:center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h6
+{
+    margin: 15px 0 0 0;
+    font-size:7px;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+p, li, ul, ol
+{
+    font-size:20px;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}

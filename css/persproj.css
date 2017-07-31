@@ -1,0 +1,129 @@
+html, body
+{
+    height:100%;
+    margin:0;
+    background-color:rgb(242, 244, 247);
+}
+
+nav
+{
+ display:flex;
+ justify-content:space-around;
+ height:4%
+}
+
+a
+{
+    font-size: 2em;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    color:#1417e2;
+}
+
+header
+{
+    display:flex;
+    height:25%;
+    margin:2px 0; 
+    border-top: double #ff0a0a 10px;
+}
+
+#banner1
+{
+
+ flex:1;
+ background-image: url("../img/nys.png");
+ background-size: 100% 100%;
+}
+
+#banner2
+{
+    display: flex;
+    flex:1;
+}
+
+#banner3
+{
+    background-image: url("../img/usa.png");
+    background-size: 100% 100%;
+    flex:1;
+}
+
+
+section
+{
+    border-top: double #ff0a0a 10px;
+    height:40%;
+    justify-content:center;
+    padding:3px;
+    margin:25px;
+}
+
+footer
+{
+   display:flex; 
+   height:12%;
+   
+}
+
+#a, #b, #c, #d
+{   
+    display:flex;
+    height:100%;
+    width:10%;
+    border: solid #1417e2 3px;
+    flex:1;
+    justify-content: space-around;
+    margin:0;
+}
+
+
+h1
+{  
+    display:flex;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h3
+{  
+    display:flex;
+    font-size: 3em;
+    text-align: center;
+    align-items:center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+h4 /* Heading for links in the footer */
+{  
+    display:flex;
+    font-size:20px;
+    align-self:center;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p
+{
+    font-size:30px;
+    margin:10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.a1 /* This a1 class refers to the links in the footer*/
+{
+    align-items: center;
+    margin:0;
+    color:black;
+    color:#1417e2;
+}
+
+a /* This a element refers to the links in the footer that leads to additonal resources */
+{
+    color:black;
+    font-family:'Libre Baskerville', serif;
+    margin:0;
+}
