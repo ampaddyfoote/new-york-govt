@@ -9,7 +9,11 @@ nav
 {
  display:flex;
  justify-content:space-around;
- height:4%
+ height:4%;
+}
+nav a
+{
+    text-decoration: none;
 }
 
 header
@@ -18,8 +22,13 @@ header
     height:25%;
     margin:2px 0; 
     border-top: double #ff0a0a 10px;
+    box-sizing: border-box;
 }
-
+header p
+{
+    font-size:44px;
+    text-align: center;
+}
 #banner1
 {
 
@@ -160,7 +169,7 @@ section
 
 .a1 /* This a1 class refers to the links in the nav bar */
 {
-    font-size: 2em;
+    font-size: 1.5em;
     align-items: center;
     margin:0;
     color:#1417e2;
